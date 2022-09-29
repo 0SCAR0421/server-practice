@@ -8,7 +8,7 @@ function App() {
       password: 'test',
     },
     {
-      withCredentials: 'include',
+      withCredentials: true,
     })
     console.log(res)
   }
